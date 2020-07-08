@@ -5,4 +5,4 @@ HW1 complete
 
 HW2 complete
 
-HW3 complete (only add ArrayAdapter,but myAdapter failed)
+HW3 complete (add ArrayAdapter and myAdapter)
