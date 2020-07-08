@@ -32,7 +32,7 @@ public class RecyclerViewActivity extends AppCompatActivity implements MyAdapter
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_recyclerview);
+        setContentView(R.layout.fragment_recyclerview);
         Log.i(TAG, "RecyclerViewActivity onCreate");
         Toast.makeText(this,"RecyclerViewActivity onCreate", Toast.LENGTH_SHORT).show();
         initView();
@@ -83,7 +83,7 @@ public class RecyclerViewActivity extends AppCompatActivity implements MyAdapter
     @Override
     protected void onResume() {
         super.onResume();
-        LinearLayout linearlayout = (LinearLayout)getLayoutInflater().inflate(R.layout.activity_recyclerview,null);
+        LinearLayout linearlayout = (LinearLayout)getLayoutInflater().inflate(R.layout.fragment_recyclerview,null);
         int viewsnum = getViewsCount(linearlayout);
         Log.i(TAG, "RecyclerViewActivity onResume");
         Toast.makeText(this,"RecyclerViewActivity onResume\nviews number: " + viewsnum, Toast.LENGTH_LONG).show();
