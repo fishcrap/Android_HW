@@ -1,4 +1,4 @@
-#difference bewtween GET and POST
+# difference bewtween GET and POST
 
 >**GET** method requests a representation of the specified resource. Note that GET should not be used for operations that cause side-effects, such as using it for taking actions in web applications. One reason for this is that GET may be used arbitrarily by robots or crawlers,which should not need to consider the side effects that a request should cause.
 
