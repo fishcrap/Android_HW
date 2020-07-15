@@ -14,3 +14,5 @@ HW5 complete (Maybe you have to turn on storage permission in the phone by yours
 HW6 complete (Long Click can replace the content with 20 new items)
 
 HW7 complete
+
+HW8 complete (autoFocus, Flashing, Delay)
